@@ -1,3 +1,135 @@
-head{
+body{
+    font-family: sans-serif;
+}
+
+/*---header--*/
+.logo{
+    font-size: 24px;
+}
+.header{
+    display: flex;
+}
+.main-info p{
+    opacity: .6;
+}
+.header-logo, .header-links{
+    margin: 20px 50px 30px;
+}
+Button{
+    background-color: #3882f6;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    color: #fff;
+}
+button:hover{
+    background: #c0c0c0;
+}
+.nav, .main-content, .h1{
+    background: #1f2937;
+    color: #f9faf8;
+    height: 50;
+}
+
+/*---content--*/
+img{
+    border-radius: 8%;
+    width: 300px;
+    height: 300px;
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-Content: center;
+    gap: 100px;
+    padding: 60px;
+}
+.title h2{
+    display: flex;
+    align-items: center;
+    justify-Content: center;
+    font-size: 30px;
+}
+.main-content{
+    display: flex;
+    align-items: center;
+    justify-Content: center;
+    padding: 15px;
+    gap: 50px;
+    height: 775px;
+}
+
+/*---navigation---*/
+a:hover{
+    color: green;
+}
+a{
+    text-decoration: none;
+    color: #f9faf8;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-Content: space-between;
+}
+
+/*---sign-up-content--*/
+.sign-up-container{
+    height: 40px;
+    display: flex;
+    justify-Content: center;
+    align-items: center;
+    padding: 150px 48px;
+}
+.sign-up{
+    background: #3882f6;
+    border-radius: 7px;
+    width: 50%;
+    height: 100px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-Content: space-around;
+}
+.sign-up-text p, .sign-up-text h2{
+    color: #fff;
+}
+.sign-up-button button{
+    border-radius: 8px;
+    border: 2px solid #f9faf8;
+}
+
+/*---Quote---*/
+.quote{
+    display: flex;
+    flex-direction: column;
+    background: #e5e7eb;
+    padding: 0 200px;
+}
+.quote p{
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: lighter;
+    font-family: DejaVu Sans Light;
+}
+.quote b{
+    font-size: 36px;
+    padding-bottom: 70px;
+    padding-right: 16px;
     font-family: arial;
+    text-align: right;
+}
+
+/*---footer---*/
+.footer{
+    display: flex;
+    justify-Content: center;
+    text-align: center;
+    background: #1f2937;
+    color: #fff;
+    font-family: 'roboto';
+    padding: 30px;
 }
