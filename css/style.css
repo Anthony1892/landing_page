@@ -9,6 +9,10 @@ body{
 .header{
     display: flex;
 }
+h1{
+    font-family: 'New Times Roman';
+    font-size: 36px;
+}
 .main-info p{
     opacity: .6;
 }
@@ -59,6 +63,10 @@ img{
     padding: 15px;
     gap: 50px;
     height: 775px;
+}
+.text{
+    font-family: 'Roboto';
+    text-align: center;
 }
 
 /*---navigation---*/
@@ -130,6 +138,6 @@ a{
     text-align: center;
     background: #1f2937;
     color: #fff;
-    font-family: 'roboto';
+    font-family: arial;
     padding: 30px;
 }
