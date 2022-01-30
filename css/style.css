@@ -49,6 +49,7 @@ img{
     justify-Content: center;
     gap: 100px;
     padding: 60px;
+    flex-wrap: wrap;
 }
 .title h2{
     display: flex;
@@ -122,6 +123,10 @@ a{
     font-style: italic;
     font-weight: lighter;
     font-family: DejaVu Sans Light;
+    display: flex;
+    text-align: center;
+    justify-Content: center;
+    flex-wrap: wrap;
 }
 .quote b{
     font-size: 36px;
